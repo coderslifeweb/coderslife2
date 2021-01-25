@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="gamestyle.css">
+<title>Coders Life 2 SITES</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Changa&family=Courgette&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Changa&family=Courgette&family=Playfair+Display+SC:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Emilys+Candy&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+    <script>
+       var  money = 200;
+        var kod =0;
+        var reklam = 0;
+        var design = 0;
+        var kodp =0;
+        var reklamp =0;
+        var kodo =0;
+        var reklamo =0;
+
+
+function bas(){
+    window.location ="index.html";
+}
+        function start(){
+            var el = document.getElementById("start");
+
+el.parentNode.removeChild(el);
+        document.getElementById("money").innerHTML ="Money:"+money +" Dollars";
+       var ela = document.getElementById("alert");
+
+ela.parentNode.removeChild(ela);
+        }
+        function koda(){
+            money -= 20;
+            if (money <0) {
+    window.location ="lose.html";
+    
+}
+document.getElementById("money").innerHTML ="Money:"+money +" Dollars";
+kod +=1;
+return kod;
+        }
+        function reklama(){
+            money -= 25;
+            if (money <0) {
+    window.location ="lose.html";
+    
+}
+document.getElementById("money").innerHTML ="Money:"+money +" Dollars";
+reklam +=1;
+return reklam;
+        }
+        function designa(){
+            money -= 29;
+
+document.getElementById("money").innerHTML ="Money:"+money +" Dollars";
+design +=1;
+return design;
+        }
+        function kodpa(){
+            money -= 290;
+            if (money <0) {
+    window.location ="lose.html";
+    
+}
+            document.getElementById("money").innerHTML ="Money:"+money +" Dollars";
+kodp +=1;
+return kodp; 
+
+        }
+        function reklampa(){
+            money -= 400;
+            if (money <0) {
+    window.location ="lose.html";
+    
+}
+document.getElementById("money").innerHTML ="Money:"+money +" Dollars";
+reklamp +=1;
+return reklamp;
+        }
+        function yayinpa(){
+        
+   
+if (kodp <1) {
+    money -=100;
+    
+}
+if (kodp >=2) {
+    money += 600;
+
+    
+}
+if (kodp >= 6) {
+    money += 2000;
+    
+}
+if (kodp >= 13) {
+    money +=4000;
+    
+}
+if (kodp >= 17) {
+    money +=6500;
+    
+}
+if (kodp >= 30) {
+    money +=19000;
+    
+}
+
+if (reklamp <1) {
+    money -=100;
+    
+}
+if (reklamp >=2) {
+    money += 1000;
+
+    
+}
+if (reklamp >= 6) {
+    money += 3200;
+    
+}
+if (reklamp >= 13) {
+    money +=7000;
+    
+}
+if (reklamp >= 17) {
+    money +=10000;
+    
+}
+if (reklamp >= 30) {
+    money +=25000;
+    
+}
+document.getElementById("money").innerHTML ="Money:"+money +" Dollars";
+reklamp = 0;
+kodp =0;
+return kodp;
+
+return reklamp;
+
+        }
+        function yayin(){
+          
+            
+        
+                
+            if (kod <1) {
+                money -= 50
+                
+            }         
+if (kod <3){
+    money +=30;
+
+}
+if (kod >= 3){
+    money += 55;
+}
+if (kod >=6){
+    money += 150;
+}
+if (kod >=15) {
+    money += 300;
+    
+}
+if (kod >=20) {
+    money += 490;
+    
+}
+if (kod >=35) {
+    money += 810;
+    
+}
+if (reklam <1) {
+                money -= 50
+                
+            }
+if (reklam <3) {
+    money += 40;
+    
+}
+if (reklam >= 3) {
+    money +=80;
+
+    
+}
+if (reklam >= 6) {
+    money +=190;
+
+    
+}
+if (reklam >= 15) {
+    money +=400;
+    
+}
+if (reklam >= 20) {
+    money +=600;
+    
+}
+
+if (reklam >= 30) {
+    money +=1000;
+    
+}
+
+
+if (design <1) {
+                money -= 50
+if (design <3) {
+    money += 30;
+    
+}
+if (design >= 3) {
+    money += 130;
+    
+}
+if (design >= 6) {
+    money += 200;
+    
+}
+document.getElementById("money").innerHTML ="Money:"+money +" Dollars";
+design  = 0;
+reklam = 0;
+kod =0;
+return kod;
+return design;
+return reklam;
+}
+}
+function kodoa(){
+money -= 1000;
+if (money <0) {
+    window.location ="lose.html";
+    
+}
+document.getElementById("money").innerHTML ="Money:"+money +" Dollars";
+kodo +=1;
+return kodo;
+}
+function reklamoa(){
+    money -= 5000;
+    if (money <0) {
+    window.location ="lose.html";
+    
+}
+document.getElementById("money").innerHTML ="Money:"+money +" Dollars";
+reklamo +=1;
+return reklamo;
+}
+function yayino(){
+    if (kodo <1) {
+    money -=500;
+    
+}
+if (kodo >=2) {
+    money += 1700;
+
+    
+}
+if (kodo >= 6) {
+    money += 5500;
+    
+}
+if (kodo >= 13) {
+    money +=15000;
+    
+}
+if (kodo >= 17) {
+    money +=19000;
+    
+}
+if (kodo >= 30) {
+    money +=50000;
+    
+}
+
+if (reklamo <1) {
+    money -=500;
+    
+}
+if (reklamo >=2) {
+    money += 9000;
+
+    
+}
+if (reklamo >= 6) {
+    money += 33000;
+    
+}
+if (reklamo >= 13) {
+    money +=79000;
+    
+}
+if (reklamo >= 17) {
+    money +=90000;
+    
+}
+if (reklamo >= 30) {
+    money +=200000;
+    
+}
+document.getElementById("money").innerHTML ="Money:"+money +" Dollars";
+reklamo = 0;
+kodo =0;
+return kodo;
+
+return reklamo;
+
+
+}
+    </script>
+<body background="CLBG2.png"></body>
+
+<button class="buton" onclick="bas()">Go Back To Main Menu</button>
+<button id="start" class="buton" onclick="start()">Start</button>
+<p id="alert" class="alert">If your money is under of the 0 Dollars you will be lose.</p>
+<h1 class="money" id="money"></h1>
+<br><h1 class="yazi">Site Features</h1>
+<button class="urun" onclick="koda()">Coding +1 20 Dollars</button>
+<br><br><button class="urun" onclick="reklama()">Advertisement +1 25 Dollars</button>
+
+<br><br><button class="yayin" onclick="yayin()">Publish Site!</button>
+<br><br>
+<h1 class="yazi">Program Features</h1>
+<button class="urun" onclick="kodpa()">Coding +1 290 Dollars</button>
+<br><br><button class="urun" onclick="reklampa()">Advertisement +1 400 Dollars</button>
+<br><br><button class="yayin" onclick="yayinpa()">Publish Program!</button>
+<br><br><h1 class="yazi">OS Features</h1>
+<button class="urun" onclick="kodoa()">Coding +1 1000 Dollars</button>
+<br><br><button class="urun" onclick="reklamoa()">Advertisement +1 5000 Dollars</button>
+<br><br><button class="yayin" onclick="yayino()">Publish OS!</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

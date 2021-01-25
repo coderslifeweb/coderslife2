@@ -1,0 +1,25 @@
+.lose{
+    font-family: monospace;
+    color: red;
+    font-size: 100px;
+}
+.alert{
+    font-family: monospace;
+    color: red;
+    font-size: 30px;
+}   
+body{
+    background-color: black;
+}
+.buton{
+    background-color: rgb(0, 0, 0);
+    color: green;
+    border: rgb(255, 255, 255);
+    font-family: fantasy;
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+}
+.buton:hover{
+    color: white;
+}

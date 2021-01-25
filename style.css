@@ -1,0 +1,22 @@
+.sites{
+    font-family: 'Calligraffitti', cursive;
+    
+}
+.baslik{
+    font-family:'Dancing Script', cursive;
+    font-size: 50px;
+   
+}
+.buton{
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: lightblue;
+    border: lightblue;
+    font-family: pacifico;
+    font-size: 30px;
+}
+.buton:hover{
+    background-color: rgb(34, 107, 131);
+    color: white;
+}

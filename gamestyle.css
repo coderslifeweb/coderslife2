@@ -1,0 +1,57 @@
+.yazi{
+    font-family: pacifico;
+  
+}
+.urun{
+    background-color: cornflowerblue;
+    color: rgb(0, 0, 0);
+    font-family:  'Courgette' ,cursive;;
+    border-radius: 20px;
+    border: cornflowerblue;
+}
+.urun:hover{
+    background-color: rgb(54, 90, 158);
+    color: white;
+    
+
+}
+.buton{
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 50px;
+    font-family: 'Changa', sans-serif;
+font-family: 'Courgette', cursive;
+font-family: pacifico;
+    margin: 0;
+    padding: 0;
+    border: red;
+}
+.buton:hover{
+    background-color:cyan;
+    color: rgb(0, 0, 0);
+}
+.yayin{
+    border-radius: 20px;
+   border: teal;
+    background-color:teal;
+    color: rgb(0, 0, 0);
+    font-family:  'Courgette' ,cursive;
+    height: 25px;
+    
+}
+.yayin:hover{
+    background-color: black;
+    color:white;
+}
+.alert{
+    color: rgb(253, 0, 0);
+    font-family: monospace;
+    font-size: 20px;
+    background-color: teal;
+}
+.money{
+    font-family: 'Calligraffitti', cursive;
+font-family: 'Emilys Candy', cursive;
+}
